@@ -1,5 +1,5 @@
-FROM sameersbn/ubuntu:14.04.20140818
-MAINTAINER sameer@damagehead.com
+FROM ubuntu:latest
+MAINTAINER me@quangpham.com
 
 RUN apt-get update \
  && apt-get install -y mysql-server \
